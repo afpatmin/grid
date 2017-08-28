@@ -3,7 +3,7 @@ $large: 2rem;
 $medium: 1rem;
 $small: 0.5rem;
 $x-small: 0.25rem;
-
+$maxWidth: 1280px;
 $large-width-threshold: 1024px;
 $medium-width-threshold: 750px;
 $colSpan: 12;
@@ -19,7 +19,7 @@ div.row
 {
   text-align: left;
   width: 100%;
-  max-width: 1280px;
+  max-width: $maxWidth;
   font-size: 0;
   display: inline-block;
   position: relative;
@@ -268,6 +268,9 @@ div.row.expand
 
 
 .clickable { cursor: pointer; }
+
+.float-left { float: left; }
+.float-right { float: right; }
 
 .hidden { display: none; }
 
