@@ -266,8 +266,10 @@ div.row.expand
   max-width: 100%;
 }
 
-
 .clickable { cursor: pointer; }
+
+.display-block { display: block; }
+.display-inline-block { display: inline-block; }
 
 .float-left { float: left; }
 .float-right { float: right; }
