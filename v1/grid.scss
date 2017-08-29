@@ -34,14 +34,20 @@ div.row
     display: inline-block;
     margin: 0;
     font-size: 0.85rem;
-    padding: 0 $colPadding;
+    padding: 0 $colPadding $x-small $colPadding;
     box-sizing: border-box;
     float: left;
+    width: 100%;
 
     img
     {
       width: 100%;
     }
+  }
+
+  div.col > *
+  {
+    box-sizing: border-box;
   }
 
   div.col:after
@@ -258,7 +264,8 @@ div.row
 
 div.row.collapse > div.col
 {
-  padding: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
 div.row.expand
@@ -267,9 +274,6 @@ div.row.expand
 }
 
 .clickable { cursor: pointer; }
-
-.display-block { display: block; }
-.display-inline-block { display: inline-block; }
 
 .float-left { float: left; }
 .float-right { float: right; }
@@ -332,6 +336,7 @@ div.row.expand
 .text-right { text-align: right; }
 .text-small { font-size: 0.9em; }
 
-.vertical-align-baseline { vertical-align: baseline; }
-.vertical-align-text-top { vertical-align: text-top; }
-.vertical-align-text-bottom { vertical-align: text-bottom; }
+.vertical-align-baseline { vertical-align: baseline !important; }
+.vertical-align-middle { vertical-align: middle !important; }
+.vertical-align-text-top { vertical-align: text-top !important; }
+.vertical-align-text-bottom { vertical-align: text-bottom !important; }

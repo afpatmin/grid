@@ -19,3 +19,17 @@ $color3Dark: darken($color3, $colorStep);
 $color1XDark: darken($color1, $colorStep * 2);
 $color2XDark: darken($color2, $colorStep * 2);
 $color3XDark: darken($color3, $colorStep * 2);
+
+@mixin box-shadow()
+{
+  -webkit-box-shadow: 1px 1px 4px $colorBlack;
+  -moz-box-shadow: 1px 1px 4px $colorBlack;
+  box-shadow: 1px 1px 4px $colorBlack;
+}
+
+@mixin border-radius()
+{
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+}

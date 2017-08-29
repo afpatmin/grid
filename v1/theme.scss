@@ -2,19 +2,8 @@
 
 $fontStack: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
-.border-radius
-{
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
-  border-radius: 0.5rem;
-}
-
-.box-shadow
-{
-  -webkit-box-shadow: 1px 1px 4px $colorBlack;
-  -moz-box-shadow: 1px 1px 4px $colorBlack;
-  box-shadow: 1px 1px 4px $colorBlack;
-}
+.border-radius { @include border-radius(); }
+.box-shadow { @include box-shadow(); }
 
 .background-color-1 { background-color: $color1 !important; }
 .background-color-2 { background-color: $color2 !important; }
