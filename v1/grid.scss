@@ -275,10 +275,13 @@ div.row.expand
 
 .clickable { cursor: pointer; }
 
+.display-block { display: block; }
+.display-inline-block { display: inline-block; }
+
 .float-left { float: left; }
 .float-right { float: right; }
 
-.hidden { display: none; }
+.hidden { display: none !important; }
 
 .margin-bottom-none { margin-bottom: 0 !important; }
 .margin-bottom-x-small { margin-bottom: $x-small !important; }
