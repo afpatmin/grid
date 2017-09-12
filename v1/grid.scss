@@ -273,6 +273,25 @@ div.row.expand
   max-width: 100%;
 }
 
+
+.flex-aligner
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /*
+  .flex-aligned-middle
+  {
+
+  }*/
+}
+.flex-aligner > div
+{
+  width: 100%;
+}
+
+
 .clickable { cursor: pointer; }
 
 .display-block { display: block; }
@@ -303,6 +322,11 @@ div.row.expand
 .margin-top-medium { margin-top: $medium !important; }
 .margin-top-large { margin-top: $large !important; }
 .margin-top-x-large { margin-top: $x-large !important; }
+
+.nowrap
+{
+  white-space: nowrap;
+}
 
 .non-selectable
 {
