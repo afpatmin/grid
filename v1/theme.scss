@@ -61,6 +61,14 @@ material-checkbox
   }
 }
 
+material-radio
+{
+  div.icon-container.checked
+  {
+    color: $color1 !important;
+  }
+}
+
 material-tab-strip
 {
   div.navi-bar
@@ -68,6 +76,24 @@ material-tab-strip
     div.tab-indicator { background-color: $color1; }
   }
   tab-button.active { color: $color1 !important; }
+}
+
+.material-toggle.checked
+{
+  div.tgl-container
+  {
+    div.tgl-bar
+    {
+      background-color: $colorConfirm !important;
+    }
+    div.tgl-btn-container
+    {
+      div.tgl-btn
+      {
+        background-color: $colorConfirm !important;
+      }
+    }
+  }
 }
 
 material-input
