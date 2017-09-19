@@ -286,6 +286,11 @@ div.row.expand
   {
 
   }*/
+
+  .flex-bottom
+  {
+    align-self: flex-end;
+  }
 }
 .flex-aligner > div
 {
@@ -362,7 +367,9 @@ div.row.expand
 .text-justify { text-align: justify; }
 .text-left { text-align: left; }
 .text-right { text-align: right; }
+.text-large { font-size: 1.1em; }
 .text-small { font-size: 0.9em; }
+.text-x-small { font-size: 0.8em; }
 
 .vertical-align-baseline { vertical-align: baseline !important; }
 .vertical-align-middle { vertical-align: middle !important; }
