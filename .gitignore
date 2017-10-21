@@ -3,3 +3,5 @@
 *.css.map
 
 
+.dart_tool
+.packages
