@@ -34,7 +34,7 @@ div.row
     text-overflow: ellipsis;
     display: inline-block;
     margin: 0;
-    font-size: 0.85rem;
+    font-size: 1rem;
     padding: $x-small $colPadding $x-small $colPadding;
     box-sizing: border-box;
     float: left;
@@ -117,7 +117,7 @@ div.row
   {
     div.col
     {
-      font-size: 0.95rem;
+      //font-size: 0.95rem;
     }
 
     div.m0.col
@@ -180,7 +180,7 @@ div.row
   {
     div.col
     {
-      font-size: 1rem;
+      //font-size: 1rem;
     }
 
     div.l0.col
