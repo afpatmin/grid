@@ -2,6 +2,7 @@
 *.css
 *.css.map
 
+*.code-workspace
 
 .dart_tool
 .packages
