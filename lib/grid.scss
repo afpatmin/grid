@@ -242,14 +242,18 @@ div.row
 /* Small screen */
 @media screen and (max-width: $medium-width-threshold - 1)
 {
-  div.row.align-columns-bottom-for-small {
+  div.row.flex-for-small {
     display: flex;
-    align-items: flex-end;
-  }
-
-  div.row.align-columns-bottom-for-large, div.row.align-columns-bottom-for-medium {
-    display: inline-block;
-    align-items: normal;
+    flex-direction: row;
+    div.col.top {
+      align-self: flex-begin;
+    }
+    div.col.middle {
+      align-self: center;
+    }
+    div.col.bottom {
+      align-self: flex-end;
+    }
   }
 
   .hide-for-small
@@ -261,9 +265,18 @@ div.row
 /* Medium screen */
 @media screen and (min-width: $medium-width-threshold) and (max-width: $large-width-threshold - 1)
 {
-  div.row.align-columns-bottom-for-medium {
+  div.row.flex-for-medium {
     display: flex;
-    align-items: flex-end;
+    flex-direction: row;
+    div.col.top {
+      align-self: flex-begin;
+    }
+    div.col.middle {
+      align-self: center;
+    }
+    div.col.bottom {
+      align-self: flex-end;
+    }
   }
 
   .hide-for-medium
@@ -275,9 +288,18 @@ div.row
 /* Large screen */
 @media screen and (min-width: $large-width-threshold)
 {
-  div.row.align-columns-bottom-for-large {
+  div.row.flex-for-large {
     display: flex;
-    align-items: flex-end;
+    flex-direction: row;
+    div.col.top {
+      align-self: flex-begin;
+    }
+    div.col.middle {
+      align-self: center;
+    }
+    div.col.bottom {
+      align-self: flex-end;
+    }
   }
 
   .hide-for-large
