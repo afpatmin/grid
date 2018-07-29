@@ -12,7 +12,7 @@ $colPadding: 0.5rem;
 body
 {
   margin: 0 auto;
-  text-align: center;
+  //text-align: center;
 }
 
 div.row
@@ -32,7 +32,7 @@ div.row
     overflow: hidden;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
-    display: inline-block;
+    //display: inline-block;
     margin: 0;
     font-size: 1rem;
     padding: $x-small $colPadding $x-small $colPadding;
