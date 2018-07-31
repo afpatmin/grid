@@ -36,7 +36,7 @@ div.row
     font-size: 1rem;
     padding: $x-small $colPadding $x-small $colPadding;
     box-sizing: border-box;
-    float: left;
+    display: inline-block;
     width: 100%;
 
     img
