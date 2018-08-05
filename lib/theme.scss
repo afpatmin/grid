@@ -141,7 +141,7 @@ $colorStep: 20%;
         fill: $value;
     }
     .background-color-1-light {
-        background-color: ligthen($value, $colorStep);
+        background-color: lighten($value, $colorStep);
         fill: lighten($value, $colorStep);
     }
     .background-color-1-x-light {
@@ -184,7 +184,7 @@ $colorStep: 20%;
         fill: $value;
     }
     .background-color-2-light {
-        background-color: ligthen($value, $colorStep);
+        background-color: lighten($value, $colorStep);
         fill: lighten($value, $colorStep);
     }
     .background-color-2-x-light {
@@ -227,7 +227,7 @@ $colorStep: 20%;
         fill: $value;
     }
     .background-color-3-light {
-        background-color: ligthen($value, $colorStep);
+        background-color: lighten($value, $colorStep);
         fill: lighten($value, $colorStep);
     }
     .background-color-3-x-light {
@@ -270,7 +270,7 @@ $colorStep: 20%;
         fill: $value;
     }
     .background-color-4-light {
-        background-color: ligthen($value, $colorStep);
+        background-color: lighten($value, $colorStep);
         fill: lighten($value, $colorStep);
     }
     .background-color-4-x-light {
