@@ -1,4 +1,4 @@
-$colorStep: 20%;
+$colorStep: 30%;
 @mixin colorAlert($value: #e33) {
     .background-color-alert-dark {
         background-color: darken($value, $colorStep);
