@@ -4,6 +4,10 @@
 
 *.code-workspace
 
+pubspec.yaml
+
+web/
+
 .dart_tool
 .packages
 
