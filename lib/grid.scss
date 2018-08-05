@@ -15,8 +15,7 @@
 
 @mixin thresholds($medium, $large) {
     $medium-width-threshold: $medium;
-    $large-width-threshold: $large;
-    // Small
+    $large-width-threshold: $large; // Small
     @media screen and (max-width: $medium - 1) {
         .hide-for-small {
             display: none !important;
@@ -65,6 +64,8 @@
                 width: 1200%/$col-span;
             }
         }
+    }
+    @media screen and (min-width: $medium) and (max-width: $large - 1) {
         .hide-for-medium {
             display: none !important;
         }
@@ -154,7 +155,7 @@ div.row {
     div.col:after {
         clear: both;
     } // Small (default)    
-    div.s0.col { 
+    div.s0.col {
         width: 0;
         padding: 0;
     }
