@@ -14,6 +14,8 @@
 }
 
 @mixin thresholds($medium, $large) {
+    $medium-width-threshold: $medium;
+    $large-width-threshold: $large;
     // Small
     @media screen and (max-width: $medium - 1) {
         .hide-for-small {
@@ -116,9 +118,6 @@
     }
 }
 
-@include col-padding($col-padding, $x-small);
-@include max-width($max-width);
-@include thresholds($medium-width-threshold, $large-width-threshold);
 div.row {
     display: flex;
     flex-direction: row;
@@ -155,7 +154,7 @@ div.row {
     div.col:after {
         clear: both;
     } // Small (default)    
-    div.s0.col {
+    div.s0.col { 
         width: 0;
         padding: 0;
     }
@@ -384,3 +383,7 @@ div.row.expand {
 .text-right {
     text-align: right;
 }
+
+@include col-padding($col-padding, $x-small);
+@include max-width($max-width);
+@include thresholds($medium-width-threshold, $large-width-threshold);
