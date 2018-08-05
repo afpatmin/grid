@@ -1,5 +1,4 @@
 @import 'constants';
-
 @mixin max-width($value) {
     div.row {
         max-width: $value;
@@ -20,65 +19,62 @@
         .hide-for-small {
             display: none !important;
         }
-    }
-    // Medium
+    } // Medium
     @media screen and (min-width: $medium) {
-        div.row {                                        
+        div.row {
             div.m0.col {
                 width: 0;
                 padding: 0;
             }
             div.m1.col {
-                width: 100%/$col-span;                
+                width: 100%/$col-span;
             }
             div.m2.col {
-                width: 200%/$col-span;                
+                width: 200%/$col-span;
             }
             div.m3.col {
                 width: 300%/$col-span;
             }
-            div.m4.col 
-            {   
+            div.m4.col {
                 width: 400%/$col-span;
             }
             div.m5.col {
                 width: 500%/$col-span;
             }
             div.m6.col {
-                width: 600%/$col-span;                
+                width: 600%/$col-span;
             }
             div.m7.col {
-                width: 700%/$col-span;                
+                width: 700%/$col-span;
             }
             div.m8.col {
-                width: 800%/$col-span;                
+                width: 800%/$col-span;
             }
             div.m9.col {
-                width: 900%/$col-span;                
+                width: 900%/$col-span;
             }
             div.m10.col {
-                width: 1000%/$col-span;                
+                width: 1000%/$col-span;
             }
             div.m11.col {
-                width: 1100%/$col-span;                
+                width: 1100%/$col-span;
             }
             div.m12.col {
-                width: 1200%/$col-span;                
+                width: 1200%/$col-span;
             }
         }
         .hide-for-medium {
             display: none !important;
         }
-    }
-    // Large
+    } // Large
     @media screen and (min-width: $large) {
-        div.row {                        
+        div.row {
             div.l0.col {
                 width: 0;
                 padding: 0;
             }
             div.l1.col {
-                width: 100%/$col-span;                
+                width: 100%/$col-span;
             }
             div.l2.col {
                 width: 200%/$col-span;
@@ -113,7 +109,7 @@
             div.l12.col {
                 width: 1200%/$col-span;
             }
-        }                        
+        }
         .hide-for-large {
             display: none !important;
         }
@@ -123,19 +119,16 @@
 @include col-padding($col-padding, $x-small);
 @include max-width($max-width);
 @include thresholds($medium-width-threshold, $large-width-threshold);
-
-
 div.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    font-size: 0;    
+    font-size: 0;
     position: relative;
     margin: 0 auto;
     padding: 0;
-    
-    div.col {        
+    div.col {
         min-height: 1rem;
         overflow: hidden;
         -ms-text-overflow: ellipsis;
@@ -143,13 +136,13 @@ div.row {
         margin: 0;
         font-size: 1rem;
         box-sizing: border-box;
-        display: inline-block;        
+        display: inline-block;
         width: 100%;
         align-self: flex-start;
         img {
             width: 100%;
         }
-    }    
+    }
     div.col.align-middle {
         align-self: center;
     }
@@ -161,8 +154,7 @@ div.row {
     }
     div.col:after {
         clear: both;
-    } 
-    // Small (default)    
+    } // Small (default)    
     div.s0.col {
         width: 0;
         padding: 0;

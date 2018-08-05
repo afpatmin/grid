@@ -1,5 +1,14 @@
 $colorStep: 20%;
 @mixin colorAlert($value: #e33) {
+    .background-color-alert-dark {
+        background-color: darken($value, $colorStep);
+    }
+    .background-color-alert {
+        background-color: $value;
+    }
+    .background-color-alert-light {
+        background-color: lighten($value, $colorStep);
+    }
     .color-alert-dark {
         color: darken($value, $colorStep);
     }
@@ -12,6 +21,15 @@ $colorStep: 20%;
 }
 
 @mixin colorConfirm($value: #3e3) {
+    .background-color-confirm-dark {
+        background-color: darken($value, $colorStep);
+    }
+    .background-color-confirm {
+        background-color: $value;
+    }
+    .background-color-confirm-light {
+        background-color: lighten($value, $colorStep);
+    }
     .color-confirm-dark {
         color: darken($value, $colorStep);
     }
@@ -24,6 +42,15 @@ $colorStep: 20%;
 }
 
 @mixin colorWhite($value: #fff) {
+    .background-color-white-dark {
+        background-color: darken($value, $colorStep);
+    }
+    .background-color-white {
+        background-color: $value;
+    }
+    .background-color-white-light {
+        background-color: lighten($value, $colorStep);
+    }
     .color-white-dark {
         color: darken($value, $colorStep);
     }
@@ -36,6 +63,15 @@ $colorStep: 20%;
 }
 
 @mixin colorBlack($value: #333) {
+    .background-color-black-dark {
+        background-color: darken($value, $colorStep);
+    }
+    .background-color-black {
+        background-color: $value;
+    }
+    .background-color-black-light {
+        background-color: lighten($value, $colorStep);
+    }
     .color-black-dark {
         color: darken($value, $colorStep);
     }
