@@ -10,7 +10,7 @@ $colorStep: 30%;
     }
     .background-color-alert-light {
         background-color: lighten($value, $colorStep);
-        fill: lighen($value, $colorStep);
+        fill: ligthen($value, $colorStep);
     }
     .color-alert-dark {
         color: darken($value, $colorStep);
