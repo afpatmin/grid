@@ -206,6 +206,10 @@ div.row.expand {
     max-width: 100%;
 }
 
+div.row.center {
+    justify-content: center;
+}
+
 .clickable {
     cursor: pointer;
 }
