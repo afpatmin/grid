@@ -29,10 +29,11 @@ div.row
   div.col
   {
     min-height: 1rem;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: visible;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
-    display: inline-block;
+    display: block;
     margin: 0;
     font-size: 1rem;
     padding: $x-small $colPadding $x-small $colPadding;

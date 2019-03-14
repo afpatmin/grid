@@ -1,0 +1,12 @@
+
+@import '../lib/grid.scss';
+@include max-width(300px);
+@import '../lib/theme.scss';
+@include color1(orange);
+
+div.row {
+    div.col {
+        border: 1px solid black;
+
+    }
+}
