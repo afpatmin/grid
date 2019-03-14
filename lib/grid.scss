@@ -130,7 +130,8 @@ div.row {
   padding: 0;
   div.col {
     min-height: 1rem;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: visible;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
     margin: 0;
