@@ -1,8 +1,8 @@
 name: grid
 description: A grid css framework
-version: 0.1.0
+version: 0.1.1
 environment:
     sdk: '>=2.0.0 <3.0.0'
 
 dev_dependencies:
-  sass_builder: 2.1.1
+  sass_builder: ^2.1.2
