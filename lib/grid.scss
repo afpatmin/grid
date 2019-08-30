@@ -1,5 +1,4 @@
 @import "constants";
-@import "mixins";
 
 div.row {
   display: flex;
@@ -31,6 +30,9 @@ div.row {
   }
   div.col.align-bottom {
     align-self: flex-end;
+  }
+  div.col.align-stretch {
+    align-self: stretch;
   }
   div.col > * {
     box-sizing: border-box;
