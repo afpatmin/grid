@@ -26,6 +26,9 @@ div.row {
       width: 100%;
     }
   }
+  div.col.overflow {
+    overflow: visible;
+  }
   div.col.align-middle {
     align-self: center;
   }
