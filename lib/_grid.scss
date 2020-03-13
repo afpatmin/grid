@@ -1,4 +1,3 @@
-@import "constants";
 @import "mixins";
 
 div.row {
@@ -40,7 +39,7 @@ div.row {
   }
   div.col:after {
     clear: both;
-  } // Small (default)
+  }
   div.s0.col {
     width: 0;
     padding: 0;

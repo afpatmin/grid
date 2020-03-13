@@ -1,11 +1,10 @@
-$x-small: 0.25rem;
-$small: 0.5rem;
-$medium: 1rem;
-$large: 2rem;
-$x-large: 3rem;
-$max-width: 1280px;
-$col-padding: 0.5rem;
-$medium-width-threshold: 750px;
-$large-width-threshold: 1024px;
-
+$x-small: 0.25rem !default;
+$small: 0.5rem !default;
+$medium: 1rem !default;
+$large: 2rem !default;
+$x-large: 3rem !default;
+$max-width: 1280px !default;
+$col-padding: 0.5rem !default;
+$medium-width-threshold: 750px !default;
+$large-width-threshold: 1100px !default;
 $col-span: 12;

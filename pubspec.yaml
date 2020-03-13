@@ -2,9 +2,9 @@ name: grid_css
 description: A grid css framework with a row/columns pattern based on 12
 author: Patrick Minogue <patrick.minogue@gmail.com>
 homepage: https://github.com/afpatmin/grid
-version: 1.0.0
+version: 1.0.1
 environment:
     sdk: '>=2.0.0 <3.0.0'
 
 dev_dependencies:
-  sass_builder: ^2.1.2
+  sass_builder: ^2.1.3

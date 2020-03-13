@@ -1,3 +1,5 @@
+@import "constants";
+
 @mixin max-width($value) {
   div.row {
     max-width: $value;
@@ -14,7 +16,7 @@
 
 @mixin thresholds($medium, $large) {
   $medium-width-threshold: $medium;
-  $large-width-threshold: $large; // Small
+  $large-width-threshold: $large;
   @media screen and (max-width: $medium - 1) {
     .hide-for-small {
       display: none !important;
