@@ -1,4 +1,4 @@
-@import "constants";
+$col-span: 12;
 
 @mixin max-width($value) {
   div.row {
@@ -14,15 +14,57 @@
   }
 }
 
-@mixin thresholds($medium, $large) {
-  $medium-width-threshold: $medium;
-  $large-width-threshold: $large;
-  @media screen and (max-width: $medium - 1) {
+@mixin thresholds($med, $lar) {
+  @media screen and (max-width: $med - 1) {
     .hide-for-small {
       display: none !important;
     }
-  } // Medium
-  @media screen and (min-width: $medium) {
+  }
+  div.row {
+    div.s0.col {
+      width: 0;
+      padding: 0;
+    }
+    div.s1.col {
+      width: 100% / $col-span;
+    }
+    div.s2.col {
+      width: 200% / $col-span;
+    }
+    div.s3.col {
+      width: 300% / $col-span;
+    }
+    div.s4.col {
+      width: 400% / $col-span;
+    }
+    div.s5.col {
+      width: 500% / $col-span;
+    }
+    div.s6.col {
+      width: 600% / $col-span;
+    }
+    div.s7.col {
+      width: 700% / $col-span;
+    }
+    div.s8.col {
+      width: 800% / $col-span;
+    }
+    div.s9.col {
+      width: 900% / $col-span;
+    }
+    div.s10.col {
+      width: 1000% / $col-span;
+    }
+    div.s11.col {
+      width: 1100% / $col-span;
+    }
+    div.s12.col {
+      width: 1200% / $col-span;
+    }
+  }
+
+  // Medium
+  @media screen and (min-width: $med) {
     div.row {
       div.m0.col {
         width: 0;
@@ -66,12 +108,12 @@
       }
     }
   }
-  @media screen and (min-width: $medium) and (max-width: $large - 1) {
+  @media screen and (min-width: $med) and (max-width: $lar - 1) {
     .hide-for-medium {
       display: none !important;
     }
   } // Large
-  @media screen and (min-width: $large) {
+  @media screen and (min-width: $lar) {
     div.row {
       div.l0.col {
         width: 0;

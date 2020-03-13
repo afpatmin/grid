@@ -1,4 +1,8 @@
-@import "mixins";
+$x-small: 0.25rem;
+$small: 0.5rem;
+$medium: 1rem;
+$large: 2rem;
+$x-large: 3rem;
 
 div.row {
   display: flex;
@@ -39,46 +43,6 @@ div.row {
   }
   div.col:after {
     clear: both;
-  }
-  div.s0.col {
-    width: 0;
-    padding: 0;
-  }
-  div.s1.col {
-    width: 100% / $col-span;
-  }
-  div.s2.col {
-    width: 200% / $col-span;
-  }
-  div.s3.col {
-    width: 300% / $col-span;
-  }
-  div.s4.col {
-    width: 400% / $col-span;
-  }
-  div.s5.col {
-    width: 500% / $col-span;
-  }
-  div.s6.col {
-    width: 600% / $col-span;
-  }
-  div.s7.col {
-    width: 700% / $col-span;
-  }
-  div.s8.col {
-    width: 800% / $col-span;
-  }
-  div.s9.col {
-    width: 900% / $col-span;
-  }
-  div.s10.col {
-    width: 1000% / $col-span;
-  }
-  div.s11.col {
-    width: 1100% / $col-span;
-  }
-  div.s12.col {
-    width: 1200% / $col-span;
   }
 }
 
@@ -273,7 +237,3 @@ div.row.center {
 .text-right {
   text-align: right;
 }
-
-@include col-padding($col-padding, $x-small);
-@include max-width($max-width);
-@include thresholds($medium-width-threshold, $large-width-threshold);
