@@ -1,3 +1,6 @@
+# 2.0.1
+- col min-width now set to 1px (down from 1em)
+
 # 2.0.0
 - Breaking change: Mixin includes max-width(), col-padding() & thresholds() removed from grid.css, they must now be explicitly set by client app
 
