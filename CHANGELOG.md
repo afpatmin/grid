@@ -1,0 +1,7 @@
+# 2.0.0
+- Breaking change: Mixin includes max-width(), col-padding() & thresholds() removed from grid.css, they must now be explicitly set by client app
+
+# 1.0.1
+- Breaking change: Removed theme.css
+- Breaking change: Increased `$large-width-threshold` default value to 1100px
+- New feature: All constants except `$col-span` can now be overridden by specifying their values before importing grid.css
