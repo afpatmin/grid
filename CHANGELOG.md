@@ -1,3 +1,6 @@
+# 3.0.0
+- Support null-safety
+
 # 2.0.1
 - col min-width now set to 1px (down from 1em)
 
