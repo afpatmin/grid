@@ -1,3 +1,4 @@
+@use "sass:math";
 $col-span: 12;
 
 @mixin max-width($value) {
