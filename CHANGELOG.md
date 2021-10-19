@@ -1,3 +1,6 @@
+# 3.0.1
+- Divisions now use math.div instead of deprecated literal '/'
+- Set min dart sdk to 2.13.0 (down from 2.14.0)
 # 3.0.0
 - Support null-safety
 

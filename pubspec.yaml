@@ -1,9 +1,9 @@
 name: grid_css
 description: A grid css framework with a row/columns pattern based on 12
 homepage: https://github.com/afpatmin/grid
-version: 3.0.0
+version: 3.0.1
 environment:
-  sdk: ">=2.14.0 <3.0.0"
+  sdk: ">=2.13.0 <3.0.0"
 
 dev_dependencies:
   sass_builder: ^2.1.4
